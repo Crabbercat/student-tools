@@ -10,6 +10,7 @@
 ## Converter
 
 - `celsius_to_fahrenheit(celsius)`
+- `kelvin_to_celsius(kelvin)`
 - `km_to_miles(km)`
 
 ## Validator
