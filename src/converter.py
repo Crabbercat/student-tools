@@ -9,3 +9,5 @@ def kelvin_to_celsius(kelvin):
 """Creates conflict with the test file, so I will comment it out for now."""
 # def fahrenheit_to_celsius(fahrenheit):
 #     return (fahrenheit - 32) * 5 / 9
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5 / 9
