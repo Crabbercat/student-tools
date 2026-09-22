@@ -3,6 +3,8 @@ def celsius_to_fahrenheit(celsius):
 
 
 def kelvin_to_celsius(kelvin):
+    if kelvin < 0:
+        raise ValueError("Kelvin temperature cannot be negative")
     return kelvin - 273.15
 
 

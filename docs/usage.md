@@ -11,6 +11,9 @@
 
 - `celsius_to_fahrenheit(celsius)`
 - `kelvin_to_celsius(kelvin)`
+
+`kelvin_to_celsius(kelvin)` raises `ValueError` when `kelvin` is negative,
+because Kelvin temperatures cannot be below absolute zero.
 ### Celsius to Fahrenheit
 
 Use `celsius_to_fahrenheit(celsius)` to convert a numeric Celsius value to
